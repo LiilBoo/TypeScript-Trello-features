@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TS - Trello - Features</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="TS-Trello-Features-styles.css">
+    <!-- Scripts defer -->
+    <script src="./scripts/TS-Trello-features.js" defer></script>
+</head>
+<body>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Workspace</a>
+        <a href="#">Contanct</a>
+    </nav>
+    <main class="main-content">
+        <div class="items-container" draggable="true">
+            <div class="top-container">
+                <h2>Current</h2>
+                <button class="delete-container-btn">
+                    X
+                </button>
+            </div>
+            <ul>
+
+            </ul>
+            <button class="add-item-btn">
+                Add an item
+            </button>
+            <form autocomplete="off">
+                <div class="top-form-container">
+                    <label for="item">Add a new item</label>
+                    <button type="button" class="close-form-btn">
+                        X 
+                    </button>
+                </div>
+                <input type="text" id="item">
+                <span class="validation-msg"></span>
+                <button type="submit">
+                    Submit
+                </button>
+            </form>
+        </div> <!--End of .items-container -->
+        <div class="items-container" draggable="true">
+            <div class="top-container">
+                <h2>To do</h2>
+                <button class="delete-container-btn">
+                    X
+                </button>
+            </div>
+            <ul>
+
+            </ul>
+            <button class="add-item-btn">
+                Add an item
+            </button>
+            <form autocomplete="off">
+                <div class="top-form-container">
+                    <label for="">Add a new item</label>
+                    <button type="button" class="close-form-btn">
+                        X 
+                    </button>
+                </div>
+                <input type="text" id="item">
+                <span class="validation-msg"></span>
+                <button type="submit">
+                    Submit
+                </button>
+            </form>
+        </div><!--end of .item container-->
+
+
+
+        <div class="items-container" draggable="true">
+            <div class="top-container">
+                <h2>Finished</h2>
+                <button class="delete-container-btn">
+                    X
+                </button>
+            </div>
+            <ul>
+
+            </ul>
+            <button class="add-item-btn">
+                Add an item
+            </button>
+            <form autocomplete="off">
+                <div class="top-form-container">
+                    <label for="">Add a new item</label>
+                    <button type="button" class="close-form-btn">
+                        X
+                    </button>
+                </div>
+                <input type="text" id="item">
+                <span class="validation-msg"></span>
+                <button type="submit">
+                    Submit
+                </button>
+            </form>
+        </div><!--End of .items-container -->
+
+
+        <!--Add a new container-->
+        <div class="add-new-container">
+            <button class="add-container-btn">
+                Add another container
+            </button>
+            <form autocomplete="off">
+                <div class="top-form-container">
+                    <label for="new-container">Add a new item</label>
+                    <button type="button" class="close-add-list">
+                        X
+                    </button>
+                </div>
+                <input type="text" id="new-container">
+                <span class="validation-msg"></span>
+                <button type="submit">
+                    Submit
+                </button>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
